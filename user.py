@@ -1,3 +1,4 @@
+# To fetch the data from user table which is active
 from flask import Flask, jsonify
 import mysql.connector
 from collections import OrderedDict
@@ -20,8 +21,6 @@ def get_users():
 
         cursor.close()
         conn.close()
-
-       
 
         result = OrderedDict()
         result['status'] = True
