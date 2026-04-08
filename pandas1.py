@@ -8,3 +8,5 @@ data = {
 
 for i in range(len(data['Name'])):
     print(f"Name: {data['Name'][i]}, Age: {data['Age'][i]}, City: {data['City'][i]}")
+
+    
