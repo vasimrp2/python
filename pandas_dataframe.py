@@ -7,4 +7,8 @@ data = {
 }
 
 result = pd.DataFrame(data)
-print(result)
+print("To print top 2 record")
+print(result.head(2)) 
+print("____________________________________________")
+print("To print last 2 record")
+print(result.tail(10))
