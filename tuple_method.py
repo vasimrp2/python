@@ -12,3 +12,10 @@ print(arr)
 print(arr[2])
 print(arr[0:3])
 print(arr[1:3])
+
+# nested tuple
+arr1 = (("vasim","36"),("Wajid","35"),("Azim","33"))
+print(arr1)
+print(arr1[0])
+print(f"{arr1[0][0]} - {arr1[0][1]}")
+print(f"{arr1[2][0]} - {arr1[2][1]}")
