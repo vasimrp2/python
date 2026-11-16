@@ -24,3 +24,4 @@ data = pd.read_csv('chc.csv')
 #     print(f"{sr} = {result[i]}")
 #     sr = sr+1
 
+print(data.duplicated())
